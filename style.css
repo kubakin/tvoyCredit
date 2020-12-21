@@ -1,0 +1,60 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font-family: sans-serif;
+}
+p {
+    margin: 0 0 0 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+.firstStage {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    height: 146px;
+}
+
+
+.firstStage > img {
+    padding-right: 11%;
+}
+
+
+
+.firstStage img {
+    align-self: center;
+}
+
+
+
+.firstStage .social {
+    margin-bottom: 30px;
+    padding-left: 40%;
+}
+.secondStage {
+    height: 896px;
+    background: url('img/header.png') black 20% 100%;
+    color: white;
+}
+.textOnHeader {
+    margin-left: 410px;
+}
+.mainText {
+    
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    width: 776px;
+    margin-top: 90px;
+}
+.headerMiniText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30,6px;
+    width: 600px;
+}
